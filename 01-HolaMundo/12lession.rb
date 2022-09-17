@@ -19,3 +19,8 @@ end
 contactos.each_value do |value|
     puts "el value es #{value} "
 end
+
+nombre = "ronald"
+nombre.each_char do |ch|
+    puts ch
+end
